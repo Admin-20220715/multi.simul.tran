@@ -102,6 +102,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: github
+  type: git # github ではなく git を指定
   repo: git@github.com:Admin-20220715/multi.simul.tran.git
   branch: master
